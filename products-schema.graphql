@@ -149,6 +149,7 @@ id: Int!
 #"""
 #A Subscription for whenever a new review has been added.
 #"""
-#type Subscription {
+type Subscription {
+reviewAdded: Review
 #ADD SUBSCRIPTION FIELDS AND RETURN TYPES HERE
-#}
+}
